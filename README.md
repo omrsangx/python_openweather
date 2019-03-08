@@ -4,9 +4,11 @@ This script will how you on how to get weather temperature from OpenWeatherMap a
 friend, or any program that can make use of the temperature. 
 
 References
+
 https://openweathermap.org/weather-conditions
 
-A nice way to help you visualize json data 
+A nice way to help you visualize json data
+
 http://jsonviewer.stack.hu/
 
 
