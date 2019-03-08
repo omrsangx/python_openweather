@@ -1,5 +1,7 @@
 # python_openweathermap
 
+Author:  Omar Rosa
+
 Getting OpenWeatherMap's weather data using Python.
 
 This script will show you how to get the weather's temperature from OpenWeatherMap and send a text using Twilio to yourself, 
