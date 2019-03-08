@@ -22,7 +22,7 @@ json_data = requests.get(url).json()
 json_to_python_data = json_data['main']['temp']
 get_weather_description = json_data['weather'][0]['description']
 
-# The temperature data that is imported from openweather.org is in Kelvin
+# The temperature data that is imported from https://openweathermap.org/ is in Kelvin
 # Convert from Kelvin to Fahrenheit and round the result to zero decimal value after the period
 fahrenheit_temp = ((json_to_python_data - 273) * (9/5) + 32)
 fah_temp = round(Decimal(fahrenheit_temp), 0)
