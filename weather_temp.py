@@ -1,4 +1,4 @@
-# Import models
+# Import modules
 from twilio.rest import Client
 from decimal import Decimal
 import requests
